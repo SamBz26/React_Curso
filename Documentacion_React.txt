@@ -1,0 +1,50 @@
+Crear carpeta Vite
+
+Repositorio GITHUB
+
+Iniciar Repositorio local:
+"git init"
+
+cambiar el nombre de master  main:
+"git branch -M main
+
+Eliminar Credenciales de otros usuaios:
+"win + s"
+Escribir: Administrador de credenciales
+Seleccionar credenciales de windows y luego buscar las cuenas github asociados  elimina las credenciales.
+Luego de eliminar las credenciales
+
+Configurar usuario local de git:
+git config user.email "SuEmail"
+git config user.name "SuNombre"
+
+Ahora agregar todos los archivos del proyecto.
+"git add ."
+
+Realziar un comit descriptivo de la version a subir:
+"git commit -m "Primera subida"
+
+Enlazar el repositorio  en la nube con el local
+
+git push -u origin main
+
+Luego saldra que debe iniciar sesion con el navegador
+inicie sesion con sus credenciales de github.
+Listo, actualiza el repositorio en la nube
+
+Comprobar el estado del proyecto:
+git status
+
+(Si aparece algo en rojo significa que el archivo es nuevo o se ha modificado)
+
+Comando para actualizar el repositorio con la version local:
+
+gi status
+git add .
+git commit -m "Nombre de la version o descripcion del commit"
+git push
+
+Crear ramas:
+git checkout -b nombre_de_la_rama
+git switch -c nombre_de_la_rama
+git push origin nombre_de_la_rama
